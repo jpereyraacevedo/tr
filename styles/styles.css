@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    background-color: #17171795;
+    position: fixed;
+    top: 0;
+}
+
+a {
+    color:  #fff !important;
+}
+
+.logo {
+    height: 48px;
+}
+
+.hero-section {
+    background-image: url(../multimedia/ATHERO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.title {
+    background-color: #171717de;
+    width: fit-content;
+    padding: 0 10px;
+}
+
+.title-companion {
+    background-color: #ffbd59;
+    width: fit-content;
+    padding: 0 10px;
+}
