@@ -10,7 +10,10 @@ p {
 
 body {
     color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
+
+/* header */
 
 .header {
     width: 100%;
@@ -26,6 +29,8 @@ a {
 .logo {
     height: 48px;
 }
+
+/* hero */
 
 .hero-section {
     background-image: url(../multimedia/ATHERO.jpg);
@@ -51,4 +56,47 @@ a {
     background-color: #ffbd59;
     width: fit-content;
     padding: 0 10px;
+}
+
+.subtitles {
+    margin-bottom: 32px;
+}
+
+/* cards */
+
+.info-section {
+    padding: 32px 0px;
+    background-image: url(../multimedia/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-card {
+    max-width: 380px;
+}
+
+.card-img {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.card-title {
+    margin: 16px 0px;
+}
+
+/* info */
+
+.icons-card {
+    max-width: 220px;
+}
+
+.icons-card img {
+    width: 64px;
 }
