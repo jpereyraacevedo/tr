@@ -23,7 +23,7 @@ body {
 }
 
 a {
-    color:  #fff !important;
+    color: #fff !important;
 }
 
 .logo {
@@ -65,10 +65,8 @@ a {
 /* cards */
 
 .info-section {
-    padding: 32px 0px;
-    background-image: url(../multimedia/2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 64px 0px;
+    background-image: url(../multimedia/5.png);
 }
 
 .cards {
@@ -93,10 +91,74 @@ a {
 
 /* info */
 
+.icons-section {
+    padding: 64px 0;
+    background-image: url(../multimedia/4.png);
+}
+
+.icons-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .icons-card {
     max-width: 220px;
 }
 
 .icons-card img {
     width: 64px;
+}
+
+.icons-card h4 {
+    color: #d59b44;
+}
+
+.icons-card p {
+    color: #878787;
+}
+
+/* marcas */
+
+.brands-section {
+    padding: 64px 0;
+    background-color: #e8e9ea;
+}
+
+.brands-title {
+    color: #d59b44;
+    margin: 32px 0;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.brand-img {
+    width: 200px;
+}
+
+/* contact */
+
+.contact-section {
+    padding: 32px 0;
+    background-color: #ffae21;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.contact-order {
+    text-align: center;
+}
+
+.contact-number {
+    font-size: 36px;
+    color: #fff;
+}
+
+.phone-img {
+    height: 32px;
 }
