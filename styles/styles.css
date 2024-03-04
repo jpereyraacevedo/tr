@@ -50,12 +50,17 @@ a {
     background-color: #171717de;
     width: fit-content;
     padding: 0 10px;
+    margin: 0;
 }
 
 .title-companion {
     background-color: #ffbd59;
     width: fit-content;
     padding: 0 10px;
+}
+
+.title-subtitle {
+    background-color: #171717de;
 }
 
 .subtitles {
@@ -78,6 +83,7 @@ a {
 
 .info-card {
     max-width: 380px;
+    margin: 15px 0px;
 }
 
 .card-img {
@@ -168,4 +174,15 @@ a {
 
 .ig-text {
     font-weight: 700;
+}
+
+/* footer */
+
+.footer {
+    height: 45px;
+    background-color: #2F2F2F;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
